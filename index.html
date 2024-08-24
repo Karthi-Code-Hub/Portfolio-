@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karthi's Portfolio</title>
+    <link rel="icon" href="images/icon.jpg"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6ff9e9a1e6.js" crossorigin="anonymous"></script>  
+</head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img style="margin-left: -10%" src="images/logo.jpg" class="logo" />
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Karthikeyan M</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------about-------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="images/me.jpg" alt="" />
+          </div>
+          <div class="col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              To leverage My skills and expertise in software field to
+              contribute effectively to software industry ,utilizing my passion
+              for innovation and problem solving to drive success and achieve
+              mutual growth.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML/CSS</span><br />Web Design</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>Java</span><br />Programming Language</li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017-2018</span><br />SSLC-83.8%</li>
+                <li><span>2019-2021</span><br />HSC-85.5%</li>
+                <li><span>2021-2025</span><br />UG-AI&DS-7.4%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------services------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                  I create visually appealing, user-friendly websites that enhance the overall user experience.</p>
+      
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML/CSS</h2>
+                <p>
+                  I use HTML and CSS to design visually appealing, user-friendly websites that offer a seamless user experience.</p>
+          
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>JAVA</h2>
+                <p>
+                  I develop robust and efficient applications using Java, focusing on clean code and effective problem-solving.</p>
+           
+            </div>
+        </div>
+        </div>
+     </div>
+     <!-- ------portfolio---- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="img1" src="images/helmett.jfif" alt="">
+                    <div class="layer">
+                      <h3>Helmet and number plate detection</h3>
+                    <p>The project identifies helmet usage and captures vehicle number plates for enhanced road safety.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                  </div>
+                </div>
+              <div class="work">
+                  <img src="images/cancer.jfif" alt="">
+                  <div class="layer">
+                    <h3>Diagnosis Malignant melanomo lesions</h3>
+                  <p>The project predicts the melanommo skin cancer based on datset.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+              </div>  
+            <div class="work">
+                <img class="img3" src="images/home.jfif" alt="">
+                <div class="layer">
+                  <h3>Smart home anti theft system</h3>
+                <p>The project notes the unauthorized activity in home.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+              </div>
+            </div>
+        </div>
+      </div>
+<!-- ------------form------------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-regular fa-paper-plane"></i> karthikncet7@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 6380795258</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/karthikeyanmaruthu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/2k4_karthi?igsh=MTZtanR0eGd6eTA0bw=="><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://x.com/KarthiKeyan___M?t=PuL4pE5V0EDUKwimGaEBQg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <a href="images/Karthi's Resume(current).pdf" class="btn"><i class="fa-solid fa-download"></i> Download Resume</a>
+      </div>
+      <div class="col-2">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+<input type="text" name="Email" placeholder="Your Email" required>
+<input type="number" name="Phone number" placeholder="Your Phone no" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Karthi. Made with <i class="fa-regular fa-heart"></i> by me</p>
+  </div>
+ </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+      var sidemenu=document.getElementById("side-menu")
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5g0qyQJToFZ21ytuf4hAS32cn0viMHkrVd7UlDFhu-xz-f10He6cywwInYRFVYdZq/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            msg.innerHTML="Message sent succesfully!"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },3000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
